@@ -1,7 +1,7 @@
 {
   "name": "chrome-devtools-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A light syntax theme for Atom reproducing the chrome devtools colors.",
   "keywords": [
     "syntax",
