@@ -6,4 +6,4 @@ It's a modified port of Austin Cummings's [Chrome DevTools theme](http://colorsu
 
 I have been using this syntax theme for years now.
 
-![screenshot](./screenshot.png)
+![screenshot](https://cldup.com/RDeLR_z6_n.png)
