@@ -1,0 +1,155 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter, :host .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide, :host .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide, :host .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character, :host .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.string {
+  color: #C41A16;
+}
+
+.constant.numeric {
+  color: #1C00CF;
+}
+
+.keyword {
+  color: #AA0D91;
+}
+
+.keyword.operator {
+  color: #555555;
+}
+
+.constant.language {
+  color: #AA0D91;
+}
+
+.support.class.exception {
+  color: #990000;
+}
+
+.entity.name.function {
+  color: #111111;
+}
+
+.meta.function .function.name {
+  font-weight: bold;
+}
+
+.entity.name.type {
+}
+
+.variable.parameter {
+  font-style: italic;
+}
+
+.comment {
+  color: #696969;
+}
+
+.invalid {
+  color: #FF0000;
+}
+
+.invalid.deprecated.trailing-whitespace {
+  background-color: rgba(231, 26, 17, 0);
+}
+
+.text .source {
+  color: #000000;
+  background-color: rgba(250, 250, 250, 0.99);
+}
+
+.meta.tag, .declaration.tag {
+  color: #AA0D91;
+}
+
+.support {
+  color: #000000;
+}
+
+.storage {
+  color: #AA0D91;
+}
+
+.entity.name.section {
+  font-weight: bold;
+}
+
+.entity.name.function.frame {
+  font-weight: bold;
+  color: #000000;
+}
+
+.meta.tag.preprocessor.xml {
+  color: #333333;
+}
+
+.entity.other.attribute-name {
+  font-style: italic;
+  color: #994500;
+}
+
+.entity.name.tag {
+  color: #881280;
+}
+
+.sublimelinter.mark.warning {
+  color: #DDB700;
+}
+
+.sublimelinter.mark.error {
+  color: #D02000;
+}
+
+.sublimelinter.gutter-mark {
+  color: #FFFFFF;
+}
